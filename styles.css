@@ -5,11 +5,13 @@
 
 /* Small, left-aligned icon */
 .option-three-icon {
-   width: clamp(50px, 10vw, 120px); /* responsive: min 50px, ideal 10% viewport, max 120px */
-    height: auto;                     /* maintain aspect ratio */
-    position: absolute;               /* left-aligned */
+    width: 80px;             /* fixed size for consistency */
+    max-width: 10%;           /* never grow beyond 10% of container */
+    min-width: 50px;           /* never smaller than 50px */
+    height: auto;             
+    position: absolute;
     left: 0;
-    top: 50%;                         /* vertically center */
+    top: 50%;
     transform: translateY(-50%);
 }
 
