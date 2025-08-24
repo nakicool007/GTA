@@ -1,9 +1,18 @@
-img.responsive-icon {
-     width: clamp(2px, 4vw, 10px); /* Very small, scales slightly with viewport */
-    height: auto;                   /* Maintain aspect ratio */
-    float: left;                    /* Align to the left */
-    margin-right: 10px;
+.options {
+    position: relative;  /* container for absolute positioning */
+    height: 100px;       /* adjust based on your layout */
 }
+
+/* Small, left-aligned icon */
+.option-three-icon {
+    width: 20px;           /* very small */
+    height: auto;          /* maintain aspect ratio */
+    position: absolute;    /* take it out of normal flow */
+    left: 0;               /* stick to left */
+    top: 50%;              /* vertically center */
+    transform: translateY(-50%);
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
