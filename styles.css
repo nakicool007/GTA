@@ -37,7 +37,7 @@ header {
     position: absolute;
     left: 10px; /* Positions logo to the left, adjust as needed */
     height: auto;
-    width: 200px; /* Maintain existing size */
+    width: 100%; /* Maintain existing size */
 }
 
 /* Navigation container styling */
