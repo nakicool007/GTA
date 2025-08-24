@@ -1,3 +1,9 @@
+img.responsive-icon {
+    width: 10vw;       /* Width = 10% of viewport width */
+    height: auto;      /* Maintain aspect ratio */
+    max-width: 100px;  /* Optional max size */
+    min-width: 30px;   /* Optional min size */
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
