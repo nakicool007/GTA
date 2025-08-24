@@ -1,5 +1,5 @@
 img.responsive-icon {
-     width: clamp(15px, 5vw, 25px); /* Very small, scales slightly with viewport */
+     width: clamp(2px, 4vw, 10px); /* Very small, scales slightly with viewport */
     height: auto;                   /* Maintain aspect ratio */
     float: left;                    /* Align to the left */
     margin-right: 10px;
