@@ -5,14 +5,16 @@
 
 /* Small, left-aligned icon */
 .option-three-icon {
-    width: 80px;             /* fixed size for consistency */
-    max-width: 10%;           /* never grow beyond 10% of container */
-    min-width: 50px;           /* never smaller than 50px */
-    height: auto;             
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
+   .option-three-icon {
+    width: 80px;              /* Fixed width for consistency */
+    max-width: 10vw;          /* Ensures it doesn't exceed 10% of the viewport width */
+    min-width: 50px;          /* Ensures it doesn't shrink below 50px */
+    height: auto;             /* Maintains aspect ratio */
+    position: absolute;       /* Positions the icon relative to its nearest positioned ancestor */
+    left: 0;                  /* Aligns the icon to the left */
+    top: 50%;                 /* Vertically centers the icon */
+    transform: translateY(-50%); /* Adjusts for exact vertical centering */
+}
 }
 
 body {
