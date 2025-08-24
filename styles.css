@@ -1,22 +1,3 @@
-.options {
-    position: relative;  /* container for absolute positioning */
-    height: 150px;       /* adjust based on your layout */
-}
-
-/* Small, left-aligned icon */
-.option-three-icon {
-   .option-three-icon {
-    width: 80px;              /* Fixed width for consistency */
-    max-width: 10vw;          /* Ensures it doesn't exceed 10% of the viewport width */
-    min-width: 50px;          /* Ensures it doesn't shrink below 50px */
-    height: auto;             /* Maintains aspect ratio */
-    position: absolute;       /* Positions the icon relative to its nearest positioned ancestor */
-    left: 0;                  /* Aligns the icon to the left */
-    top: 50%;                 /* Vertically centers the icon */
-    transform: translateY(-50%); /* Adjusts for exact vertical centering */
-}
-}
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
